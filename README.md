@@ -1,3 +1,3 @@
-## Anger Foot Achievement Checklist
+## Another Crab's Treasure Achievement Checklist
 
-To view the checklist click [here](https://scuffed-jar.github.io/anger-foot-achievement-checklist/).
+To view the checklist click [here](https://scuffed-jar.github.io/another-crabs-treasure-achievement-checklist/).
