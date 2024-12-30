@@ -1,0 +1,35 @@
+table { width: 100%; }
+th { text-align: left;}
+.table-striped tbody tr:nth-child(odd) td, .table-striped tbody tr:nth-child(odd) th { background-color: #E9E9E9;}
+.in_progress { color: #F7681C; }
+.done { color: #8ECB4A; }
+.navbar { color: #000000; text-align: center;}
+.navbar-inner {
+    min-height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #11D3EF;
+    background-image: linear-gradient(to bottom,  #11D3EF,  #11D3EF);
+    background-repeat: repeat-x;
+    border: 5px solid #000000;
+}
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #bbbbbb;
+    background-color: #18313C
+}
+a { color: #11D3EF; }
+a:hover { color: #FFFEFF; }
+
+
+@media print {
+    body { color: #ffffff; }
+    .navbar, #intro, input[type="checkbox"] { display: none; }
+    a { color: #ffffff; text-decoration: underline; }
+    .tab-content > .tab-pane, .pill-content > .pill-pane { display: block; }
+    .tab-pane { page-break-after: always; }
+
+}
