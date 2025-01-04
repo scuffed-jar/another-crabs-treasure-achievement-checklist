@@ -1,6 +1,10 @@
 table { width: 100%; }
 th { text-align: left;}
 .table-striped tbody tr:nth-child(odd) td, .table-striped tbody tr:nth-child(odd) th { background-color: #E9E9E9;}
+.fileImage{
+  object-fit: contain;
+  max-width:100%;
+  }
 .in_progress, .done {
   border: 2px solid;
   border-radius: 3px;  
@@ -148,4 +152,5 @@ textarea#profileText {
   height: 15em;
   resize: vertical;
 }
+
 
