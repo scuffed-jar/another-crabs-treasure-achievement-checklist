@@ -1,50 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
-
+<html lang="en-US">
 <head>
-    <meta charset="utf-8">
-    <title>Another Crab's Treasure Checklist</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Checklist for getting all achievements in Another Crab's Treasure">
-    <meta name="author" content="Scuffed Jar">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/jstorage.js"></script>
-    <script type="text/javascript">
-        var profilesKey = 'profiles';
-    </script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9QN8C279EF"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-9QN8C279EF');
-    </script>
+  <meta charset="utf-8">
+  <title>Another Crab's Treasure Achievement Checklist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="img/titlecard.ico?">
+  <link rel="apple-touch-icon-precomposed" href="img/titlecard.png">
+  <meta name="description" content="Checklist for getting all achievements in Another Crab's Treasure.">
+  <meta name="author" content="Scuffed Jar">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link id="bootstrap" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="css/main.css" rel="stylesheet">
 </head>
-
 <body>
 
     <div class="container">
 
         <div class="navbar">
             <div class="navbar-inner">
-                <h1><img src="./img/titlecard_2.png" style="max-height: 200px" alt="Another Crab's Treasure"> <br> <br> Achievement Checklist</h1>
+                <h1><img src="./img/titlecard.png" style="max-height: 200px" alt="Another Crab's Treasure"> <br> <br> Achievement Checklist</h1>
             </div>
         </div>
 
         <div id="intro">
             <p>
                 <em>Warning: Contains Spoilers!</em>
-                <p>
-                    There are no missable achievements in this game, so to save time we are going to skip area coverage.
-                </p>
             </p>
         </div>
 
@@ -54,18 +34,17 @@
 
                 <h2>Checklist <span id="playthrough_overall_total"></span></h2>
                 <ul>
-                    <li><a href="#Story Bosses ">Story Bosses </a> <span id="playthrough_nav_totals_1"></span></li>
-                    <li><a href="#Side Bosses ">Side Bosses </a> <span id="playthrough_nav_totals_2"></span></li>
-                    <li><a href="#Miscellaneous ">Miscellaneous </a> <span id="playthrough_nav_totals_3"></span></li>
-                    <li><a href="#Fork Upgrades ">Fork Upgrades </a> <span id="playthrough_nav_totals_4"></span></li>
-                    <li><a href="#Shells ">Shells </a> <span id="playthrough_nav_totals_5"></span></li>
+                    <li><a href="#section_1">Story Bosses</a> <span id="playthrough_nav_totals_1"></span></li>
+                    <li><a href="#section_2">Side Bosses</a> <span id="playthrough_nav_totals_2"></span></li>
+                    <li><a href="#section_3">Miscellaneous</a> <span id="playthrough_nav_totals_3"></span></li>
+                    <li><a href="#section_4">Fork Upgrades</a> <span id="playthrough_nav_totals_4"></span></li>
+                    <li><a href="#section_5">Shells</a> <span id="playthrough_nav_totals_5"></span></li>
                 </ul>
 
                 <hr />
 
-                <a name="Story Bosses "></a>
-                <h3>Story Bosses <span id="playthrough_totals_1"></span></h3>
-                <ul>
+                <h3 id="section_1"><a href="#section_1_col" data-toggle="collapse" class="btn btn-collapse"></a>Story Bosses</a> <span id="playthrough_totals_1"></span></h3>
+                <ul id="section_1_col" class="collapse in">
                     <li data-id="playthrough_1_1"> Defeat Nephro. (<b>Captain of the Guard</b>)</li>
                     <li data-id="playthrough_1_2"> Defeat a miniboss. (<b>Polluted Platoon Pathfinder</b>)</li>
                     <li data-id="playthrough_1_3"> Defeat Magista. (<b>Tyrant of Slacktide</b>)</li>
@@ -83,9 +62,8 @@
                     <li data-id="playthrough_1_15"> Defeat Firth. (<b>Avatar of Waste</b>)</li>
                 </ul>
 
-                <a name="Side Bosses "></a>
-                <h3>Side Bosses <span id="playthrough_totals_2"></span></h3>
-                <ul>
+                <h3 id="section_2"><a href="#section_2_col" data-toggle="collapse" class="btn btn-collapse"></a>Side Bosses</a> <span id="playthrough_totals_2"></span></h3>
+                <ul id="section_2_col" class="collapse in">
                     <li data-id="playthrough_2_1"> Defeat the Royal Shellsplitter, who is located Southeast in the Shallow. (<b>Royal Shellsplitter</b>)</li>
                     <li data-id="playthrough_2_2"> Defeat the Curdled Carbonara Connoisseur, who is hidden behind the gank waterfall north of the shopping cart, roughly in the center of the Expired Grove. (<b>Curdled Carbonara Connoisseur</b>)</li>
                     <li data-id="playthrough_2_3"> Defeat Topoda. From Heikea's boss area (at Expired Grove -> Village Gates), go east, drop down, make your way through the cave to the Curdled Village. From there, fish hook your way up along the northern border, go all the way north, make a westward U-turn and go southwest towards the algae field.(<b>Grovekeeper</b>)</li>
@@ -93,9 +71,8 @@
                     <li data-id="playthrough_2_5"> Defeat the Scuttling Sludge Steamroller, who can be fought in the middle of the wooden circle establishment in the eastern part of Flotsam Vale. (<b>Scuttling Sludge Steamroller</b>)</li>
                 </ul>
 
-                <a name="Miscellaneous "></a>
-                <h3>Miscellaneous <span id="playthrough_totals_3"></span></h3>
-                <ul>
+                <h3 id="section_3"><a href="#section_3_col" data-toggle="collapse" class="btn btn-collapse"></a>Miscellaneous</a> <span id="playthrough_totals_3"></span></h3>
+                <ul id="section_3_col" class="collapse in">
                     <li data-id="playthrough_3_1"> Start the treasure hunt. This is a story progression achievement and unmissable. (<b>The Hunt Begins!</b>)</li>
                     <li data-id="playthrough_3_2"> Get your shell back. This is a story progression achievement and unmissable. (<b>Finishing What I Started</b>)</li>
                     <li data-id="playthrough_3_3"> Fall off a cliff. Can be done anywhere. (<b>You fell off</b>)</li>
@@ -116,10 +93,9 @@
                     </ul>
                 </ul>
 
-                <a name="Fork Upgrades "></a>
-                <h3>Fork Upgrades <span id="playthrough_totals_4"></span></h3>
+                <h3 id="section_4"><a href="#section_4_col" data-toggle="collapse" class="btn btn-collapse"></a>Fork Upgrades</a> <span id="playthrough_totals_4"></span></h3>
+                <ul id="section_4_col" class="collapse in">
                 <p>(<b>Make It Shine</b>)</p>
-                <ul>
                     <li data-id="playthrough_4_1"> New Carcinia - Reef's Edge: Backtrack to the grappling hook platform.</li>
                     <li data-id="playthrough_4_2"> New Carcinia - Lower Crust: Buy at Prawn Shop for 5000 Microplastics.</li>
                     <li data-id="playthrough_4_3"> Expired Grove: Defeat Heikea.</li>
@@ -138,10 +114,9 @@
                     <li data-id="playthrough_4_16"> (Bonus) The Old Ocean - Lookout Tower: Just north of the Moon Snail Shell is a blue sponge semi-hidden beneath the ledge. Jump on that sponge and the one almost immediately after it to get to a rooftop path. Final Relic is at the southern end of it.</li>
                 </ul>
 
-                <a name="Shells "></a>
-                <h3>Shells <span id="playthrough_totals_5"></span></h3>
+                <h3 id="section_5"><a href="#section_5_col" data-toggle="collapse" class="btn btn-collapse"></a>Shells</a> <span id="playthrough_totals_5"></span></h3>
+                <ul id="section_5_col" class="collapse in">
                 <p>(<b>Shell Seeker</b>)</p>
-                <ul>
                     <li data-id="playthrough_5_1"> Home Shell. Unlocked per default. </li>
                     <li data-id="playthrough_5_2"> Spring Shell. Mandatory story shell.</li>
                     <li data-id="playthrough_5_3"> Plug Fuse. Mandatory story shell.</li>
@@ -216,6 +191,16 @@
             </div>
         </div>
     </div>
+    <div class="hiddenfile">
+        <input name="upload" type="file" id="fileInput" />
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+      <script src="https://cdn.rawgit.com/andris9/jStorage/v0.4.12/jstorage.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jets/0.8.0/jets.min.js"></script>
+      <script src="js/jquery.highlight.js"></script>
+      <script src="js/main.js"></script>
+    </body>
+    </html>
 </body>
-
 </html>
